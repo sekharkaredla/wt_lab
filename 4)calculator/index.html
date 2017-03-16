@@ -1,0 +1,32 @@
+<html>
+<head>
+<h1>
+<center>CALCI 091</center>
+</h1>
+<title>CALCI</title>
+<script type="text/javascript" src="compute.js"></script>
+</head>
+<body>
+<form name="calci">
+<table border="10px">
+<tr><input id="displayfeild" type="text" name="display" onkeypress="return event.charCode>=48 && event.charCode<=58"></tr><br>
+<tr><td><input type="button" value="1" OnClick="calci.display.value+=1"></td>
+<td><input type="button" value="2" OnClick="calci.display.value+=2"></td>
+<td><input type="button" value="3" OnClick="calci.display.value+=3"></td>
+<td><input type="button" value="+" OnClick="calci.display.value+='+'"></td><br>
+<tr><td><input type="button" value="4" OnClick="calci.display.value+=4"></td>
+<td><input type="button" value="5" OnClick="calci.display.value+=5"></td>
+<td><input type="button" value="6" OnClick="calci.display.value+=6"></td>
+<td><input type="button" value="-" OnClick="calci.display.value+='-'"></td></tr><br>
+<tr><td><input type="button" value="7" OnClick="calci.display.value+=7"></td>
+<td><input type="button" value="8" OnClick="calci.display.value+=8"></td>
+<td><input type="button" value="9" OnClick="calci.display.value+=9"></td>
+<td><input type="button" value="*" OnClick="calci.display.value+='*'"></td></tr><br>
+<tr><td><input type="button" value="CE" OnClick="calci.display.value=''"></td>
+<td><input type="button" value="0" OnClick="calci.display.value+='0'"></td>
+<td><input type="button" value="=" OnClick="compute()"></td>
+<td><input type="button" value="/" OnClick="calci.display.value+='/'"></td></tr><br>
+</table>
+</form>
+</body>
+</html>
