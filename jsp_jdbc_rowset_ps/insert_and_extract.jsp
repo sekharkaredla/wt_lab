@@ -30,7 +30,7 @@
 			JdbcRowSet rs=new JdbcRowSetImpl();
 			rs.setUrl(url);
 			rs.setUsername("root");
-			rs.setPassword("pandu123");
+			rs.setPassword("jojjujojju");
 			rs.setCommand("select * from temp");
 			rs.execute();
 			while(rs.next())
