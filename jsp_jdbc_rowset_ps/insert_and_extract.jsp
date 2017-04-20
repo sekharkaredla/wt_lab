@@ -20,7 +20,7 @@
 		{
 			Class.forName("com.mysql.jdbc.Driver");
 			String url="jdbc:mysql://localhost:3306/sek091";
-			Connection conn=DriverManager.getConnection(url,"root","pandu123");
+			Connection conn=DriverManager.getConnection(url,"root","jojjujojju");
 			int i=Integer.parseInt(id);
 			PreparedStatement ps=conn.prepareStatement("insert into temp(name,id) values(?,?)");
 			ps.setString(1,name);
