@@ -18,7 +18,7 @@ public class ServletOne extends HttpServlet
 			int id1=Integer.parseInt(id);
 			out.print(name+" "+id);
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sek091","root","pandu123");
+			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sek091","root","jojjujojju");
 			PreparedStatement ps=conn.prepareStatement("insert into temp(name,id) values(?,?)");
 			ps.setString(1,name);
 			ps.setInt(2,id1);
