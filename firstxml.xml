@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="firstxsl.xsl"?>
+<student_data>
+<student roll="1111">
+  <name>Sekhar</name>
+  <clg type="day">CBIT</clg>
+  <phone>9700711789</phone>
+  <atten>90</atten>
+</student>
+<student roll="2222">
+  <name>Akram</name>
+  <clg type="hostel">BITS</clg>
+  <phone>9422555511</phone>
+  <atten>70</atten>
+</student>
+<student roll="3333">
+  <name>Bakram</name>
+  <clg type="hostel">VIT</clg>
+  <phone>9422544511</phone>
+  <atten>65</atten>
+</student>
+</student_data>
