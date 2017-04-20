@@ -27,7 +27,7 @@ public class ServletOne extends HttpServlet
 			JdbcRowSet rs=new JdbcRowSetImpl();
 			rs.setUrl("jdbc:mysql://localhost:3306/sek091");
 			rs.setUsername("root");
-			rs.setPassword("pandu123");
+			rs.setPassword("jojjujojju");
 			rs.setCommand("select * from temp");
 			rs.execute();
 			while(rs.next())
